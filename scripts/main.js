@@ -11,4 +11,4 @@ function funnywrite(destination,text,speed) {
     }, speed);
 }
 
-setInterval(funnywrite("title",title,100),100);
+setInterval(funnywrite("title",title,100),1000);
