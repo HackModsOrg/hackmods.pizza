@@ -1,7 +1,7 @@
 let title = "hackmods.pizza";
-let i = 0;
 
-function funnywrite(text,speed) {
+function funnywrite(destination,text,speed) {
+    var i = 0;
     var interval = setInterval(function(){
         document.getElementById(destination).innerHTML += text.charAt(i);
         i++;
@@ -11,4 +11,4 @@ function funnywrite(text,speed) {
     }, speed);
 }
 
-funnywrite(title,100);
+funnywrite("text",title,100);
