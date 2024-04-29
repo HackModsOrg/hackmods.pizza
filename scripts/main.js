@@ -1,7 +1,8 @@
-let title = "hackmods.pizza"
+let title = "hackmods.pizza";
 
-document.write(title.charAt(0))
+document.write(title.charAt(0));
+document.write(title.length);
 while(i<title.length) {
-  i++;
   document.write(title.charAt(i));
+  i++;
 } 
