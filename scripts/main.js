@@ -13,5 +13,7 @@ function funnywrite(destination,text,speed) {
     }, speed);
 }
 
-funnywrite("p1",paragraph,100);
-setInterval(funnywrite,3000,"title",title,100);
+window.addEventListener('load', function () {
+    funnywrite("p1",paragraph,100);
+    setInterval(funnywrite,3000,"title",title,100);
+})
