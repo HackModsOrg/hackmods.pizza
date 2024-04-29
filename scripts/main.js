@@ -1,4 +1,4 @@
-let title = "hackmods.pizza";
+let title = "Hackmods.pizza";
 
 function funnywrite(destination,text,speed) {
     var i = 0;
@@ -11,4 +11,4 @@ function funnywrite(destination,text,speed) {
     }, speed);
 }
 
-funnywrite("h1",title,100);
+funnywrite("title",title,100);
