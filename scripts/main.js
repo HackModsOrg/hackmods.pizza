@@ -2,6 +2,6 @@ let title = "hackmods.pizza"
 
 document.write(title.charAt(0))
 while(i<title.length) {
-  i++
+  i++;
   document.write(title.charAt(i));
 } 
