@@ -7,7 +7,7 @@ function sleep(ms) {
 
 function funnywrite(text) {
   while(i<text.length) {
-  setTimeout(document.write(text.charAt(i)));
+  setTimeout(document.write(text.charAt(i)), 500);
   i++;
   } 
 }
