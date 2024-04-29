@@ -16,5 +16,7 @@ function funnywrite(destination,text,speed) {
 window.addEventListener('load', function () {
     funnywrite("title",title,100);
     funnywrite("p1",paragraph,100);
+    funnywrite("p2",paragraph,100);
+    funnywrite("p3",paragraph,100);
     setInterval(funnywrite,3000,"title",title,100);
 })
