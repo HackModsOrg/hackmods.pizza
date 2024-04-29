@@ -2,7 +2,6 @@ let title = "hackmods.pizza";
 let i = 0;
 
 function funnywrite(text,interval) {
-  while(i<text.length) {
     var interval = setInterval(function(){
         document.getElementById(destination).innerHTML += text.charAt(i);
         i++;
