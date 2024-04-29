@@ -11,4 +11,6 @@ function funnywrite(destination,text,speed) {
     }, speed);
 }
 
-funnywrite("title",title,100);
+while(True){
+    funnywrite("title",title,100);
+}
