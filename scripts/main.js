@@ -1,11 +1,15 @@
 let title = "hackmods.pizza";
 let i = 0;
 
-function funnywrite(text) {
+function funnywrite(text,interval) {
   while(i<text.length) {
-  setTimeout( document.getElementById("text").innerHTML = text.charAt(i) , 500);
-  i++;
-  } 
+    var interval = setInterval(function(){
+        document.getElementById(destination).innerHTML += text.charAt(i);
+        i++;
+        if (i > text.length){
+            clearInterval(interval);
+        }
+    }, speed);
 }
 
-funnywrite(title);
+funnywrite(title,100);
