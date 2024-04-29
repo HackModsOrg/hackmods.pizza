@@ -11,4 +11,4 @@ function funnywrite(destination,text,speed) {
     }, speed);
 }
 
-funnywrite("text",title,100);
+funnywrite("h1",title,100);
