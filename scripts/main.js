@@ -1,5 +1,5 @@
 let title = "Hackmods.pizza";
-let text = "Hi, hello, hi, hello, hi, hello, hi, hello, hi";
+let paragraph = "Hi, hello, hi, hello, hi, hello, hi, hello, hi";
 
 function funnywrite(destination,text,speed) {
     document.getElementById(destination).innerHTML = "";
@@ -14,4 +14,4 @@ function funnywrite(destination,text,speed) {
 }
 
 setInterval(funnywrite,3000,"title",title,100);
-funnywrite("text",text,100);
+funnywrite("text",paragraph,100);
