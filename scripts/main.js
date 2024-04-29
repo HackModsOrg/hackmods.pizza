@@ -1,5 +1,7 @@
 let title = "hackmods.pizza"
 
-for (i in title.length) {
+document.write(title.charAt(0))
+while(i<title.length) {
+  i++
   document.write(title.charAt(i));
 } 
