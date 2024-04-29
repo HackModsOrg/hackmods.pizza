@@ -7,6 +7,7 @@ function funnywrite(destination,text,speed) {
         i++;
         if (i > text.length){
             clearInterval(interval);
+            document.getElementById(destination).innerHTML = "";
         }
     }, speed);
 }
