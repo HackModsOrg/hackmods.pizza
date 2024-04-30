@@ -12,7 +12,6 @@ function funnywrite(destination,text,speed) {
         }
         if (b.length > text.length){
             clearInterval(interval);
-            i++;
         }
     }, speed);
     document.getElementById(destination).innerHTML = "\u200c";
