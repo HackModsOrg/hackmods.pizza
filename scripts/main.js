@@ -21,6 +21,6 @@ window.addEventListener('load', function () {
     }
     else
     {
-        document.getElementById(destination).innerHTML = "\u200c";
+        document.getElementById("title").innerHTML = "\u200c";
     }
 })
