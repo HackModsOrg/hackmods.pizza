@@ -14,7 +14,6 @@ function funnywrite(destination,text,speed) {
 }
 
 window.addEventListener('load', function () {
-
     window.onblur = function () {
    
    // tab is changed
