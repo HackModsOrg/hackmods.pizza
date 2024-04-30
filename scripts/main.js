@@ -3,8 +3,10 @@ let paragraph = "pizza";
 
 function funnywrite(destination,text,speed) {
     var b = "";
+    var i = 0;
     var interval = setInterval(function(){
-        b = text.charAt(0);
+        i++;
+        b = text.charAt(i);
         document.getElementById(destination).innerHTML += b;
         if (b.length > text.length){
             clearInterval(interval);
