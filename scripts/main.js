@@ -19,4 +19,8 @@ window.addEventListener('load', function () {
     if (!document.hidden) {
         setInterval(funnywrite,3000,"title",title,100);   
     }
+    else
+    {
+        document.getElementById(destination).innerHTML = "\u200c";
+    }
 })
