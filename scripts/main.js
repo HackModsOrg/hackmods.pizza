@@ -5,11 +5,8 @@ function funnywrite(destination,text,speed) {
     var b = "";
     var i = 0;
     var interval = setInterval(function(){
-        if (b.length < text.length) {
-            i++;
-            b = text.charAt(i);
-            document.getElementById(destination).innerHTML += b;
-        }
+        document.getElementById(destination).innerHTML += text.charAt(i);
+        i++;
         if (b.length > text.length){
             clearInterval(interval);
         }
