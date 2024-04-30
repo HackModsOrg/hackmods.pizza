@@ -2,7 +2,7 @@ let title = "Hackmods.pizza";
 let paragraph = "pizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizza";
 
 function funnywrite(destination,text,speed) {
-    document.getElementById(destination).innerHTML = "";
+    document.getElementById(destination).innerHTML = " ";
     var i = 0;
     var interval = setInterval(function(){
         document.getElementById(destination).innerHTML += text.charAt(i);
