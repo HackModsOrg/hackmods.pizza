@@ -1,8 +1,8 @@
-let title = "ackmods.pizza";
+let title = "Hackmods.pizza";
 let paragraph = "pizza";
 
 function funnywrite(destination,text,speed) {
-    document.getElementById(destination).innerHTML = "H";
+    document.getElementById(destination).innerHTML = "\0";
     var i = 0;
     var interval = setInterval(function(){
         document.getElementById(destination).innerHTML += text.charAt(i);
