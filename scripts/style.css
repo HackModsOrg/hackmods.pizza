@@ -6,3 +6,7 @@ h1{font-size: 400%;}
   justify-content:flex-start;
   gap: 2%;
 }
+
+#PIZZA {
+  position: static;
+}
