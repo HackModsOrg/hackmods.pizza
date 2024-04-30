@@ -11,10 +11,12 @@ h1{
 }
 
 #PIZZA {
-  position: absolute;
+  display:block;
+  margin:auto;
 }
 
 #PIZZA:hover {
-  width: 5%;
+  width: 8%;
 }
+
 
