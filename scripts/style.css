@@ -16,6 +16,12 @@ footer{
   width: 100%; 
 }
 
+#footercontainer{
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+
 #PIZZA {
   display:block;
   margin:auto;
