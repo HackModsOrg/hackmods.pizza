@@ -5,11 +5,14 @@ function funnywrite(destination,text,speed) {
     var b = "";
     var i = 0;
     var interval = setInterval(function(){
-        i++;
-        b = text.charAt(i);
-        document.getElementById(destination).innerHTML += b;
+        if (b.length < text.length) {
+            i++;
+            b = text.charAt(i);
+            document.getElementById(destination).innerHTML += b;
+        }
         if (b.length > text.length){
             clearInterval(interval);
+            i++;
         }
     }, speed);
     document.getElementById(destination).innerHTML = "\u200c";
