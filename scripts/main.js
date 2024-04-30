@@ -13,18 +13,10 @@ function funnywrite(destination,text,speed) {
     document.getElementById(destination).innerHTML = "\u200c";
 }
 
-window.addEventListener('load', function () {
-    document.addEventListener("visibilitychange", () => {
-   if (document.hidden) {
-      
-      // tab is changed
-   } else {
-        funnywrite("title",title,100);
-        funnywrite("p1",paragraph,50);
+window.addEventListener('load', function () {      
+    funnywrite("title",title,100);
+    funnywrite("p1",paragraph,50);
+    if (!document.hidden) {
         setInterval(funnywrite,3000,"title",title,100);   
-      // tab is active
-   }
-});
-
-
+    }
 })
