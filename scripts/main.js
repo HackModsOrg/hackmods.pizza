@@ -2,7 +2,6 @@ let title = "Hackmods.pizza";
 let paragraph = "pizza";
 
 function funnywrite(destination,text,speed) {
-    document.getElementById(destination).innerHTML = "\0";
     var i = 0;
     var interval = setInterval(function(){
         document.getElementById(destination).innerHTML += text.charAt(i);
@@ -11,6 +10,7 @@ function funnywrite(destination,text,speed) {
             clearInterval(interval);
         }
     }, speed);
+    document.getElementById(destination).innerHTML = "\0";
 }
 
 window.addEventListener('load', function () {
