@@ -1,5 +1,5 @@
 let title = "Hackmods.pizza";
-let paragraph = "Hi, hello, hi, hello, hi, hello, hi, hello, hi";
+let paragraph = "pizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizzapizza";
 
 function funnywrite(destination,text,speed) {
     document.getElementById(destination).innerHTML = "";
