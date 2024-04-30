@@ -1,4 +1,7 @@
-h1{font-size: 400%;}
+h1{
+  font-size: 200%;
+  text-align: center;
+}
 
 .container {
   display: flex;
@@ -8,5 +11,10 @@ h1{font-size: 400%;}
 }
 
 #PIZZA {
-  position: static;
+  position: absolute;
 }
+
+#PIZZA:hover {
+  width: 5%;
+}
+
