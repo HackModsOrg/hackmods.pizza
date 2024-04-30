@@ -13,19 +13,6 @@ function funnywrite(destination,text,speed) {
     }, speed);
 }
 
-function hellwrite(destination,text,speed) {
-    document.getElementById(destination).innerHTML = "";
-    var i = 0;
-    while(1):
-        var interval = setInterval(function(){
-            document.getElementById(destination).innerHTML += text.charAt(i);
-            i++;
-            if (i > text.length){
-                clearInterval(interval);
-            }
-        }, speed);
-}
-
 window.addEventListener('load', function () {
     funnywrite("title",title,100);
     funnywrite("p1",paragraph,50);
