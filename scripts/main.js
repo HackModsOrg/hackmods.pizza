@@ -10,7 +10,7 @@ function funnywrite(destination,text,speed) {
             clearInterval(interval);
         }
     }, speed);
-    document.getElementById(destination).innerHTML = "\0";
+    document.getElementById(destination).innerHTML = "\u200c";
 }
 
 window.addEventListener('load', function () {
