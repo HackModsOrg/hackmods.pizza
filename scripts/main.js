@@ -14,14 +14,17 @@ function funnywrite(destination,text,speed) {
 }
 
 window.addEventListener('load', function () {
-    window.onblur = function () {
-   
-   // tab is changed
-    };
-    window.onfocus = function () {
-    funnywrite("title",title,100);
-    funnywrite("p1",paragraph,50);
-    setInterval(funnywrite,3000,"title",title,100);   
-   // tab is active
-    };
+    document.addEventListener("visibilitychange", () => {
+   if (document.hidden) {
+      
+      // tab is changed
+   } else {
+        funnywrite("title",title,100);
+        funnywrite("p1",paragraph,50);
+        setInterval(funnywrite,3000,"title",title,100);   
+      // tab is active
+   }
+});
+
+
 })
