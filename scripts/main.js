@@ -1,5 +1,4 @@
 let title = "Hackmods.pizza";
-let paragraph = "pizza";
 
 function funnywrite(destination,text,speed) {
     var i = 0;
@@ -12,5 +11,4 @@ function funnywrite(destination,text,speed) {
 
 window.addEventListener('load', function () {      
     funnywrite("title",title,100);
-    funnywrite("p1",paragraph,50);
 })
