@@ -6,9 +6,6 @@ function funnywrite(destination,text,speed) {
     var interval = setInterval(function(){
         document.getElementById(destination).innerHTML += text.charAt(i);
         i++;
-        if (b.length > text.length){
-            clearInterval(interval);
-        }
     }, speed);
     document.getElementById(destination).innerHTML = "\u200c";
 }
