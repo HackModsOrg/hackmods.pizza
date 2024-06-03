@@ -2,6 +2,13 @@ body{background-color: beige;}
 
 h1{font-size: 200%;text-align: center;}
 
+#title {
+  background: linear-gradient(to bottom, green, white, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .container {
   display: flex;
   flex-direction: column;
