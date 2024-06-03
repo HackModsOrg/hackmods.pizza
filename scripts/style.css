@@ -18,7 +18,7 @@ h1{font-size: 200%;text-align: center;}
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2%;
   align-items: center;
 }
