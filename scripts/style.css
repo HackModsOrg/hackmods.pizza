@@ -20,6 +20,8 @@ footer{
   display: flex;
   justify-content: center;
   gap: 1%;
+  border:black;
+  border-block-style:groove;
 }
 
 #PIZZA {
@@ -32,8 +34,7 @@ footer{
 }
 
 #p1{
-  border:black;
-  border-block-style:groove;
+
   width:100%;
   text-indent: 10%;
 }
