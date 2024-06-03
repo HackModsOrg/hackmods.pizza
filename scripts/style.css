@@ -1,4 +1,11 @@
-body{background-color: #efd7c9;}
+body{
+background:
+      radial-gradient(100% 100% at 100% 100%, #0000 46%,#eaeaf9 47% 53%,#0000 54%) 32px 32px,
+      radial-gradient(100% 100% at 0 0, #0000 46%,#eaeaf9 47% 53%,#0000 54%) 32px 32px,
+      radial-gradient(100% 100%, #0000 22%, #eaeaf9 23% 29%, #0000 30% 34%, #eaeaf9 35% 41%, #0000 42%)
+      #bae3ff;
+background-size: 64px 64px;
+}
 
 h1{font-size: 200%;text-align: center;}
 
