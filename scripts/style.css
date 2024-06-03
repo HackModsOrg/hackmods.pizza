@@ -10,7 +10,7 @@ background-size: 64px 64px;
 h1{font-size: 200%;text-align: center;}
 
 #title {
-  background: linear-gradient(to bottom, green, white, red);
+  background: linear-gradient(green,green,green,white,white,red,red);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
