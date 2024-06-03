@@ -30,3 +30,10 @@ footer{
 #PIZZA:hover {
   width: 8%;
 }
+
+#p1{
+  border:black;
+  border-block-style:groove;
+  width:100%;
+  text-indent: 10%;
+}
